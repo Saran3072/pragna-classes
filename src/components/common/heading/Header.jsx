@@ -30,7 +30,7 @@ const Header = () => {
             </li>
           </ul>
           <button className="toggle" onClick={() => setClick(!click)}>
-            {click ? <i className="fa fa-times"> </i> : <i className="fa fa-bars"> </i>}
+            {click ? <i style={{color: "#1eb2a6"}} className="fa fa-times"> </i> : <i style={{color: "#1eb2a6"}} className="fa fa-bars"> </i>}
           </button>
         </nav>
       </header>

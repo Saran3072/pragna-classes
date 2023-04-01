@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap");
 
-
 * {
   padding: 0;
   margin: 0;
@@ -78,25 +77,24 @@ button:hover {
 .primary-btn {
   background-color: #1eb2a6;
   color: #fff;
-  
 }
 #heading {
   text-align: center;
   padding: 40px 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-#heading h3{
+#heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
   color: #1eb2a6;
   text-transform: uppercase;
 }
-#heading h3{
+#heading h3 {
   font-size: 45px;
   margin: 20px 0;
   text-transform: capitalize;
 }
-p{
+p {
   line-height: 30px;
   font-size: 18px;
 }
@@ -116,15 +114,30 @@ p{
   color: #1eb2a6;
   text-align: center;
 }
-.back h1{
+.back h1 {
   font-size: 100px;
   font-weight: 400;
 }
-.back h2{
+.back h2 {
   font-weight: 1000;
   font-size: 17px;
   text-transform: uppercase;
 }
-.margin{
-  margin-top: 33.3%;
+.margin {
+  margin-top: 35.3%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.flex {
+  display: flex;
+}
+@media screen and (max-width: 768px){
+  .back {
+    background-position: center;
+    padding-top: 50%;
+    height: 80vh;
+  }
 }
