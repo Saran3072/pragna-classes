@@ -19,14 +19,6 @@ const Hero = () => {
               aperiam deserunt, debitis voluptas sequi odio?
             </p>
           </div>
-          <div className="button">
-            <button className="primary-btn">
-              GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
-            </button>
-            <button>
-              VIEW PROGRAMS <i className="fa fa-long-arrow-alt-right"></i>
-            </button>
-          </div>
         </div>
       </section>
       <div className="margin"></div>

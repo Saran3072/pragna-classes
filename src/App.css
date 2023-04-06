@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
 
 * {
   padding: 0;
@@ -28,13 +28,13 @@ body {
   border-radius: 50%;
   text-align: center;
   border-color: rgba(255, 255, 255, 0.3);
-  color: #1eb2a6;
+  color: #219ebc;
   transition: 0.5s;
 }
 
 .icon:hover {
   cursor: pointer;
-  background-color: #1eb2a6;
+  background-color: #219ebc;
   color: #fff;
 }
 
@@ -46,37 +46,8 @@ li {
   list-style-type: none;
 }
 
-button {
-  border: none;
-}
-
 .row {
   width: 50%;
-}
-
-button {
-  padding: 17px 30px;
-  background-color: #fff;
-  color: #1eb2a6;
-  font-weight: 600;
-  border: none;
-  margin: 30px 10px 0 0;
-  border-radius: 3px;
-  cursor: pointer;
-  box-shadow: 0 24px 36px -11px rgba(0 0 0 / 9%);
-}
-
-button i {
-  margin-left: 20px;
-}
-
-button:hover {
-  box-shadow: none;
-}
-
-.primary-btn {
-  background-color: #1eb2a6;
-  color: #fff;
 }
 #heading {
   text-align: center;
@@ -86,7 +57,7 @@ button:hover {
 #heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
-  color: #1eb2a6;
+  color: #219ebc;
   text-transform: uppercase;
 }
 #heading h3 {
@@ -108,10 +79,10 @@ p {
   left: 0;
   z-index: -1;
   width: 100%;
-  height: 100vh;
+  height: 102vh;
   padding-top: 30%;
   padding-right: 50px;
-  color: #1eb2a6;
+  color: #219ebc;
   text-align: center;
 }
 .back h1 {
@@ -124,7 +95,7 @@ p {
   text-transform: uppercase;
 }
 .margin {
-  margin-top: 35.3%;
+  margin-top: 33.6%;
 }
 .grid {
   display: grid;
@@ -133,6 +104,21 @@ p {
 }
 .flex {
   display: flex;
+}
+.flex {
+  display: flex;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.padding {
+  padding: 50px 0;
+}
+.shadow {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
 }
 @media screen and (max-width: 768px){
   .back {

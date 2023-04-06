@@ -1,20 +1,20 @@
 export const homeAbout = [
     {
       id: 1,
-      cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-      title: "Online Courses",
+      cover: "./images/about/physics.png",
+      title: "Physics",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
       id: 1,
-      cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-      title: "Earn A Certificates",
+      cover: "./images/about/chemistry.png",
+      title: "Chemistry",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
       id: 1,
-      cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-      title: "Learn with Expert",
+      cover: "./images/about/mathematics.png",
+      title: "Mathematics",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
   ]
@@ -245,44 +245,28 @@ export const homeAbout = [
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/team/founder.jpeg",
+      name: "N V Subbarao",
+      qualification: "MSc. Physics",
+      work: "Founder",
     },
     {
-      cover: "./images/team/t2.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/team/founder.jpeg",
+      name: "Penagamuri Pavani",
+      qualification: "BSc. Biotechnology",
+      work: "Managing Director",
     },
     {
-      cover: "./images/team/t3.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/team/founder.jpeg",
+      name: "N Mourya",
+      qualification: "7th Class",
+      work: "CEO",
     },
     {
-      cover: "./images/team/t4.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t5.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t6.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t7.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t8.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/team/founder.jpeg",
+      name: "N Prithvi",
+      qualification: "2nd Class",
+      work: "CTO",
     },
   ]
   export const price = [
@@ -392,23 +376,23 @@ export const homeAbout = [
   export const testimonal = [
     {
       id: 1,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
+      name: "Chiranjeevi",
+      post: "IIT Madras",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      cover: "./images/test/chiranjeevi.jpeg",
     },
     {
       id: 2,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
+      name: "Nagarjuna",
+      post: "IIT Mumbai",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      cover: "./images/test/nagarjuna.jpg",
     },
     {
       id: 3,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
+      name: "Venkatesh",
+      post: "IIT Delhi",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      cover: "./images/test/venkatesh.webp",
     },
   ]
