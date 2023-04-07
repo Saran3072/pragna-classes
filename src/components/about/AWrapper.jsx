@@ -8,7 +8,7 @@ const AWrapper = () => {
         <div className='container grid'>
           {awrapper.map((val) => {
             return (
-              <div className='box flex'>
+              <div className='data box flex'>
                 <div className='img'>
                   <img src={val.cover} alt='' />
                 </div>

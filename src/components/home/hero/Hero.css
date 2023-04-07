@@ -34,10 +34,14 @@
   .margin {
     height: 40vh;
   }
+  #root {
+    width: 100em;
+  }
   .hero {
-    background-position: right;
-    padding-top: 55%;
-    height: 80vh;
+    /* background-position: right; */
+    width: 100em;
+    padding-top: 35%;
+    height: 100vh;
   }
   .hero .row {
     width: 100%;

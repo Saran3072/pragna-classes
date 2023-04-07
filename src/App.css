@@ -105,8 +105,8 @@ p {
 .flex {
   display: flex;
 }
-.flex {
-  display: flex;
+.data{
+  margin-top: 50%;
 }
 .grid2 {
   display: grid;
@@ -125,5 +125,6 @@ p {
     background-position: center;
     padding-top: 50%;
     height: 80vh;
+    width: 100em;
   }
 }
