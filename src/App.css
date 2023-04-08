@@ -105,9 +105,6 @@ p {
 .flex {
   display: flex;
 }
-.data{
-  margin-top: 50%;
-}
 .grid2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -126,5 +123,8 @@ p {
     padding-top: 50%;
     height: 80vh;
     width: 100em;
+  }
+  .data{
+    margin-top: 50%;
   }
 }
